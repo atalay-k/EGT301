@@ -1,0 +1,30 @@
+---
+title: "EGT301: EĞİTİMDE ÖLÇME VE DEĞERLENDİRME"
+subtitle: "Ders Iceriği"
+date: Sys.Date()
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: 
+      collapsed: false
+      smooth_scroll: false
+    theme:  default
+    highlight: null
+    css: styles.css
+---
+
+### Sunumlar
+
+1. [Dersin ve Kaynakların Tanınımı](sunum/01_Dersi Tanıtımı.html)  
+2. [Ölçmede Temel Kavramlar](sunum/02_Temel Kavramlar.html)
+3. [Ölçme araçlarının temel nitelikleri I](sunum/03_Güvenirlik.html) 
+4. [Ölçme araçlarının temel nitelikleri II](sunum/04_Geçerlik.html) 
+5. [Eğitimde kullanılan ölçme araçları I](sunum/05_SÖZLÜ ve YAZILI SINAVLAR.html) 
+6. [Eğitimde kullanılan ölçme araçları II](sunum/06_KISA CEVAPLI SINAVLAR.html) 
+8. [Eğitimde kullanılan ölçme araçları III](sunum/07_COKTAN SECEMELİ SINAVLAR.html) 
+9. [Eğitimde kullanılan ölçme araçları IV](sunum/08_PERFORMANS DEGERLENDİRME.html) 
+10. [Test Geliştirme](sunum/09_TEST GELISTIRME SURECI.html)
+10. [Madde Analizi](sunum/10_MADDE ISTATISTIKLERI.html) 
+11. [Test İstatistikleri](sunum/11_ISTATISTIKSEL ISLEMLER.html) 
+14. [Not Verme ve Genel Tekrar](sunum/14.html) 
