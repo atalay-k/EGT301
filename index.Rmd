@@ -1,7 +1,5 @@
 ---
 title: "EGT301: EĞİTİMDE ÖLÇME VE DEĞERLENDİRME"
-subtitle: "Ders Iceriği"
-date: Sys.Date()
 output: 
   html_document:
     toc: true
@@ -26,5 +24,5 @@ output:
 9. [Eğitimde kullanılan ölçme araçları IV](sunum/08_PERFORMANS.html) 
 10. [Test Geliştirme](sunum/09_TG.html)
 10. [Madde Analizi](sunum/10_MADDEIST.html) 
-11. [Test İstatistikleri](sunum/11_IESTIST.html) 
+11. [Test İstatistikleri](sunum/11_TESTIST.html) 
 14. [Not Verme ve Genel Tekrar](sunum/14.html) 
