@@ -49,8 +49,6 @@ degiskentur <- grViz("digraph{
                      B[label = 'Yapı/Özellik']
                      D[label = 'Neden-Sonuc']
                      C[label = 'Değer']
-                     C[label = 'Neden-Sonuc']
-                     D[label = 'Deger']
                      E[label = 'Nicel']
                      F[label = 'Nitel']
                      G[label = 'Sürekli']
@@ -342,17 +340,6 @@ bakımından olmazsa olmazdır.
 
   - düzey belirleme  
 
----
-
-##   Ölçme ve Ölçme Türleri Nedir?
-
-- **Ölçme**, birey ya da nesnelerin niteliklerinin **uygun araçlar** kullanılarak gözlenip gözlem sonuçlarının sembollerle ifade edilmesidir (Büyüköztürk vd., 2020). 
-
--   **Ölçme;** insanın varlığı ile var olan ve var olmaya devam edecek olan bir kavramdır.
-
--   Çünkü insanoğlunun her nasıl var olduğu kabul edilirse edilsin, var olduğu ilk andan itibaren çevresinde olan varlıkları gözlemlemek, algılamak ve buna göre tepkide bulunmak gibi bir mecburiyeti olmuştur.
-
--   Bu **gözlemleme** ve **algılama** işi de başlı başına bir ölçmedir. Bu sebeple ölçme kavramı insanın varlığı ile başlamakta ve hâlâ bu kavram insanla birlikte devam etmektedir.
 
 ---
 
@@ -412,21 +399,6 @@ P. Drucker
 
 ---
 
-## Ölçme Nedir?
-
--   Ölçmenin farklı bilim dallarında **farklı tanımlarını** görmek mümkündür.
-
---
-
--   Fakat, aynı zamanda aynı bilim dalı içinde de **farklı ölçme tanımları** görülebilmektedir.
-
--   Ölçmenin mantığı bir **ölçme aracı oluşturmak** için gerekli olan şartlarla ilgilidir.
-
---
-
--   Ölçme, burada kullanıldığı şekli ile, **karşılaştırma standardının** geliştirildiği sürece atfedilir.
-
----
 
 ## Ölçme Nedir?
 
@@ -1143,6 +1115,7 @@ knitr::include_graphics("img/Resim15.PNG")
 -   Sınıf ortalaması 85 ve 76<85, olduğundan Mert matematik dersinden başarısız olmuştur.
 
 ]
+
 ---
 
 ## Ölçüt
@@ -1381,7 +1354,8 @@ Kullanılan ölçüt türünü belirtiniz?
 -   Yabancı dil sınavından 70 ve üstü puan alanlar Yüksek lisans programına alınır.
 --
 
--   Okulda ilk %10'luk dilime giren öğrencilere burs verilir. Sınıftaki en başarılı öğrenciye ödül verilir.
+-     Okulda ilk %10'luk dilime giren öğrencilere burs verilir. Sınıftaki en başarılı öğrenciye ödül verilir.
+
 ---
 
 ## Değerlendirme ve Türleri
