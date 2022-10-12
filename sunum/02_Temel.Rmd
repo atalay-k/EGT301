@@ -47,13 +47,10 @@ degiskentur <- grViz("digraph{
                      node[shape = rectangle, style = empty] 
                      A[label = 'Değişken Türleri']
                      B[label = 'Yapı/Özellik']
-<<<<<<< HEAD
                      D[label = 'Neden-Sonuc']
                      C[label = 'Değer']
-=======
                      C[label = 'Neden-Sonuc']
                      D[label = 'Deger']
->>>>>>> 2f3ff004f8285574f0f9b8f05a607aad7c745e4b
                      E[label = 'Nicel']
                      F[label = 'Nitel']
                      G[label = 'Sürekli']
@@ -64,24 +61,17 @@ degiskentur <- grViz("digraph{
                      L[label = 'Seçilmiş']
                      M[label = 'Düzenleyici']
                      N[label = 'Dışsal']
-                     
+      
                      edge[color = red]
                      A -> B [color = black]
                      A -> C [color = black]
                      A -> D [color = black]
                      
                      edge[color = red]
-<<<<<<< HEAD
-                     C -> G[color = black]
-                     C -> H[color = black]
                      B -> E[color = black]
                      B -> F[color = black]      
-=======
-                     B -> E[color = black]
-                     B -> F[color = black]
                      C -> G[color = black]
                      C -> H[color = black]      
->>>>>>> 2f3ff004f8285574f0f9b8f05a607aad7c745e4b
                      D -> I[color = black]
                      D -> J[color = black] 
                      
@@ -178,11 +168,8 @@ degerturleri <- grViz("digraph{
 knitr::include_graphics("img/Resim1.png", error=FALSE)
 ```
 
-<<<<<<< HEAD
 ---
-=======
---
->>>>>>> 2f3ff004f8285574f0f9b8f05a607aad7c745e4b
+
 # Ölçme Nedir?
 
 -   Hayatın her alanında olduğu gibi **eğitim** alanında da, işin neresinde olduğumuzu, ulaştığımız sonuçları, başarılı olup olamadığımızı görmek ve bundan bir karar çıkarmak zorundayız.
@@ -391,10 +378,8 @@ knitr::include_graphics("img/galileo.jpeg")
 P. Drucker
 
 ]
-<<<<<<< HEAD
 
-=======
->>>>>>> 2f3ff004f8285574f0f9b8f05a607aad7c745e4b
+
 ---
 
 ## Ölçme Nedir?
@@ -699,10 +684,7 @@ tx_names %>%
 ```
 
 ]
-<<<<<<< HEAD
 
-=======
->>>>>>> 2f3ff004f8285574f0f9b8f05a607aad7c745e4b
 ---
 
 .center[
@@ -730,10 +712,8 @@ tx_names1 %>%
 
 ```
 ]
-<<<<<<< HEAD
 
-=======
->>>>>>> 2f3ff004f8285574f0f9b8f05a607aad7c745e4b
+
 ---
 
 .center[
