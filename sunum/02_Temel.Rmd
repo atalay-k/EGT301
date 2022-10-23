@@ -950,7 +950,7 @@ olcektur
 | Eşit Oranlı   | 185 cm     | 165 cm   | 100 cm   | 85 cm     |
 | Eşit Aralıklı | 85         | 65       | 45       | 15        |
 | Sıralama      | 1\.        | 2\.      | 3\.      | 4\.       |
-| Sınıflama     | Uzun       | Uzun     | Kısa     | Kısa      |
+| Sınıflama     | Başarılı     | Başarılı     | Başarısız     | Başarısız      |
 
 ---
 
