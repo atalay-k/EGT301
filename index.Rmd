@@ -186,6 +186,7 @@ Bu dersi başarıyla tamamlayan öğretmen adayları ders bitiminde aşağıdaki
 - `r advdate(mon, 14)`:  Not Verme ve Genel Tekrar
 - `r advdate(mon, 15)`:  Genel Sınav
 
+** tarihlerde değişiklik olabilir.
 
 
 
