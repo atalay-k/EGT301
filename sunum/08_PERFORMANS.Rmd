@@ -19,41 +19,6 @@ output:
         </div>
 ---
 
-```{r child = "../setup.Rmd"}
-```
-
-```{r set-theme, include=FALSE}
-library(xaringanthemer)
-style_duo_accent(
-  primary_color      = "#0F4C81", # pantone classic blue
-  secondary_color    = "#B6CADA", # pantone baby blue
-  header_font_google = google_font("Raleway"),
-  text_font_google   = google_font("Raleway", "300", "300i"),
-  code_font_google   = google_font("Source Code Pro"),
-  text_font_size     = "30px"
-)
-```
-
-```{r, include=FALSE}
-advdate <- function(obj, adv) {
- tmon <- obj + 7- (adv-1)
- # tfri <- obj + 4 + 7- (adv-1)
- tmon <- format(tmon, format="%d/%m")
- # tfri <- format(tfri, format="%d/%m")
- zadv <- sprintf("%02d", adv)
- tmp <- paste("Hafta ",zadv,sep='',", ", tmon)
- return(tmp)
-}
-
-library(lubridate)
-options(scipen=999)
-library(tidyverse)
-library(stevemisc)
-mon <- ymd(20220207)
-```
-
-
-
 ## Öğrenci Başarısının Belirlenmesinde Yeni Yaklaşımlar
 
 - Günümüzde, eğitim kurumları için önemli olan bireylerin hızla değişen bilgileri edinip, edindikleri
@@ -150,7 +115,7 @@ olarak adlandırılan  değerlendirme yolları kullanılmaktadır.
 
 ---
 ## Performansa dayalı durum belirleme
-*
+
 - öğretmenin öğrencilerini belli bir alandaki **bilgi ve becerilerinin sergiledikleri, bir ürün oluşturdukları, bir yanıt yapılandırdıkları ya da sunuş yaptıkları durumlarda gözlemleyerek,** onların başarıları hakkında karara vermelerine katkı sağlayan bir yöntemdir. 
 
 - Bu yöntemde odak noktası öğrencilerin sahip oldukları bilgi ve becerilerini kullanarak **bir ürün oluşturmaları ya da bir görevi yerine getirmeleri** üzerindedir.
@@ -173,42 +138,47 @@ olarak adlandırılan  değerlendirme yolları kullanılmaktadır.
 
 ---
 ##Performans görevinin bölümleri 
+
 - Bir performans görevi dört temel bölümden oluşmaktadır (Doğan, 2006; Kutlu, Karakaya ve Doğan, 2008):
 
-- Tanımlama
-- Görev
-- Yönerge
-- Puanlama yöntemi
+  - Tanımlama
+
+  - Görev
+
+  - Yönerge
+
+  - Puanlama yöntemi
 
 ---
 ## Tanımlama
-Performans görevinin ilk kısmı olan tanımlama, ilgili görevin kimlik kartı olarak görülebilir. Performans görevinin hangi ders için hazırlandığı, hangi kazanımlara ilişkin olduğu gibi bilgilerle öğrenciye ilişkin bilgilere de yer verilebilir. Öğrenci, ulaşmayı hedeflediği kazanımlardan da bahsedebilir.
+
+- Performans görevinin ilk kısmı olan tanımlama, ilgili görevin **kimlik kartı** olarak görülebilir. Performans görevinin hangi ders için hazırlandığı, hangi kazanımlara ilişkin olduğu gibi bilgilerle öğrenciye ilişkin bilgilere de yer verilebilir. Öğrenci, **ulaşmayı hedeflediği kazanımlardan da** bahsedebilir.
 
 ---
 ## Görev
 
-- Görev bölümünde öğrenciye çözüm bulması gereken bir problem durumu ya da tamamlaması gereken bir görev sunulur.
+- Görev bölümünde öğrenciye **çözüm bulması gereken bir problem durumu** ya da tamamlaması gereken bir görev sunulur.
 
 ---
 ## Yönerge
 
-- Yönerge kısmında, öğrencinin görevi yerine getirirken dikkat etmesi gereken noktalar belirtilmelidir. 
+- Yönerge kısmında, **öğrencinin görevi yerine getirirken dikkat etmesi gereken noktalar** belirtilmelidir. 
 
 ---
 ## Puanlama
 
-- Puanlamada ise öğrencinin ilgili görevi tamamladıktan sonra hangi ölçütlere göre değerlendireceği ile ilgili bilgiler yer almalıdır. Bunun yanında öz değerlendirme formları da verilebilir.
+- Puanlamada ise **öğrencinin ilgili görevi tamamladıktan sonra hangi ölçütlere göre değerlendireceği** ile ilgili bilgiler yer almalıdır. Bunun yanında **öz değerlendirme** formları da verilebilir.
 
 
 ---
 ## Performans Görevi Geliştirme Aşamaları
 
-- Performans görevi hazırlanırken iki yöntem izlenebilir. 
+- Performans görevi hazırlanırken **iki yöntem** izlenebilir. 
 
-- Bunlardan ilki ölçülmek istenilen üst düzey zihinsel süreç ya da süreçlerin belirlenmesi, ders içeriği ile ilişkilendirilmesi ve performans görevinin yazılmasıdır. 
+- Bunlardan ilki ölçülmek istenilen **üst düzey zihinsel süreç ya da süreçlerin belirlenmesi**, **ders içeriği ile ilişkilendirilmesi** ve performans görevinin yazılmasıdır. 
 
 
-- Diğer yöntem de ise önce dersin içeriği ve kazanımlar belirlenir, bunlara uygun üst düzey zihinsel süreçler belirlenir ve görev yazılır.
+- Diğer yöntem de ise önce **dersin içeriği ve kazanımlar belirlenir, bunlara uygun üst düzey zihinsel süreçler belirlenir** ve görev yazılır.
 (Kutlu, Doğan ve Karakaya, 2014)
 
 ---
@@ -216,21 +186,21 @@ Performans görevinin ilk kısmı olan tanımlama, ilgili görevin kimlik kartı
 
 İlk hazırlama yöntemi detaylı olarak tartışılmıştır.
 
-- I. Adım: Ölçülmesi amaçlanan üst düzey zihinsel süreç ya da süreçlerin belirlenmesi ve ders içeriğiyle ilişkilendirilmesi
+- **I. Adım:** Ölçülmesi amaçlanan üst düzey zihinsel süreç ya da süreçlerin belirlenmesi ve ders içeriğiyle ilişkilendirilmesi
 
 - İlk aşamada ölçülmesi hedeflenen zihinsel özellikler ve bu özelliklerin alanyazınca belirlenen göstergeleri belirlenmelidir.
 
 
-- II. Adım: Görev kısmının oluşturulması
+- **II. Adım**: Görev kısmının oluşturulması
 Bu aşamada öğretmen öğrencinin bireysel olarak yapabileceği bir görev ya da problem durumu oluşturur. Bu problem durumu bir soru olabilir. Öğrencinin verilen durumla ilgili olarak neler yapması gerektiği de belirtilir.
 
 ---
 ## Performans Görevi Geliştirme Aşamaları
 
-- III. Adım: Yönergenin Hazırlanması
+- **III. Adım:** Yönergenin Hazırlanması
 Görevin hemen ardından öğrencilerin görevi yaparken dikkat etmeleri gereken noktaları belirten yol gösterici bir yönerge yer almalıdır. Yönerge öğrencinin daha iyi bir performansın sergilemesi için gerekli olan noktaları vurgulamalıdır. Bununla beraber görevin teslim tarihine de yer verilmesi önerilir.
 
-- IV. Adım: Puanlama yönteminin belirlenmesi 
+- **IV. Adım:** Puanlama yönteminin belirlenmesi 
 Son bölümde öğrencilerin puanlanırken kullanılacak olan dereceli puanlama anahtarına yer verilmelidir. Bunun yanında öğrencilerin kullanabilecekleri öz değerlendirme formları da verilebilir.
 
 - Dereceli puanlama anahtarında önemli olan husus her bir ölçütün görevle ve ölçülen zihinsel özellikle ilişkili olması ve ayrıntılı betimlenmiş olmasıdır.
@@ -242,13 +212,13 @@ Son bölümde öğrencilerin puanlanırken kullanılacak olan dereceli puanlama 
 ## Performans görevi yazarken nelere dikkat edilmeli?
 
 
-- Görevler üst düzey zihinsel süreçlerle ilişkili olmalıdır.
+- Görevler **üst düzey zihinsel süreçlerle ilişkili olmalıdır.**
 
-- Görevler öğrencilerin farklı becerilerini kullanmasını gerektirmelidir.
+- Görevler öğrencilerin **farklı becerilerini kullanmasını gerektirmelidir.**
 
-- Görevler klasik değerlendirme yaklaşımlarından elde edilebilecek bilgileri sağlayan görevler olmamalıdır.
+- Görevler **klasik değerlendirme yaklaşımlarından elde edilebilecek bilgileri sağlayan görevler olmamalıdır.**
 
-- Görev ya da problem durumu ilgi çekici olmalıdır.
+- Görev ya da problem durumu **ilgi çekici olmalıdır.**
 
 - Yönlendirme gereksiz ayrıntı içermemelidir.
 
@@ -258,21 +228,21 @@ Son bölümde öğrencilerin puanlanırken kullanılacak olan dereceli puanlama 
 
 - Karmaşık öğrenme çıktılarını ölçmede elverişlidir. 
 
-- Sonuç odaklı değil süreç odaklı bir değerlendirme imkanı sunar.
+- Sonuç odaklı değil **süreç odaklı bir değerlendirme imkanı sunar.**
 
 - Geribildirim imkanı verir. 
 
-- Öğrencinin derse güdülenmesini arttırır.
+- Öğrencinin **derse güdülenmesini arttırır.**
 
-- Güvenirliği ile ilgili tartışmalar mevcuttur.
+- **Güvenirliği ile ilgili tartışmalar mevcuttur.**
 
-- Hazırlaması ve uygulaması oldukça zaman alıcıdır ve kalabalık gruplarda oldukça güçtür.
+- **Hazırlaması ve uygulaması oldukça zaman alıcıdır ve kalabalık gruplarda oldukça güçtür.**
 
 
 ---
 ## Portfolyoya dayalı durum belirleme 
 
-- Portfolyolar, sınıf içi performansı temsil ettikleri için değer kazanırlar ve aynı zamanda öğretim programı ile bütünleştirilerek kullanılabilir. 
+- Portfolyolar, sınıf içi performansı temsil ettikleri için değer kazanırlar ve aynı zamanda **öğretim programı ile bütünleştirilerek kullanılabilir.**
 
 - Portfolyo uygulamalarının, okullardaki dosya tutturma uygulamalarıyla karşılaştırılmaması gerekmektedir.
 
@@ -327,7 +297,7 @@ Airasian’a (1994) göre;
 
 
 ---
-##Vitrin portfolyo,
+##Vitrin portfolyo
 
 - Vitrin portfolyo, adından da anlaşılacağı üzre, öğrencinin en iyi çalışmalarından oluşan portfolyodur. 
 
@@ -380,7 +350,7 @@ Portfolyo oluşturma sürecinde Shores ve Grace (1998) tarafından önerilen sü
 - Portfolyoda bulunacak çalışmaların belirlenmesi
 - Performans görevlerinin ve puanlama anahtarlarının oluşturulması
 - Çalışmaların toplanması
-- - Öğretmen öğrenci görüşmelerinin gerçekleştirilmesi
+- Öğretmen öğrenci görüşmelerinin gerçekleştirilmesi
 Toplanan çalışmaların puanlanması
 
 
@@ -487,7 +457,7 @@ Kutlu, Doğan ve Karakaya (2014)
 - Her bir ölçüt düzeyinde öğrencinin başarısını gösterecek olan dereceler.
 Olanaklı ise her bir düzeyin ne anlama geldiğini tanıtan betimsel açıklamalar.
 
---- 
+---
 ## Goodrich (2005) eğitim sürecinde DPA kullanımının yararlarını aşağıdaki gibi özetlemiştir:
 
 - Değerlendiriciler açısından ölçütlerin açık olmasını sağlar.
@@ -574,7 +544,9 @@ Puanlama düzeyleri belirlenirken ilgilenilen özellik ve öğrencinin sınıf d
 ---
 
 1-Analitik DPA geliştirilirken öğrenci performansı alt boyutlara ayrılır. Alt boyutlar belirlenirken öğrenci performansı ile ilişkili zihinsel özellikler göz önünde tutulmalıdır.
+
 2- Alt boyutlar için öğrenci performansı belirlenir ve puanlarla niteledirilir. 
+
 3-Her bir alt boyuttaki öğrenci performansı için betimsel açıklamalar detaylı olarak yazılır.
 
 ---
@@ -592,11 +564,9 @@ Puanlama düzeyleri belirlenirken ilgilenilen özellik ve öğrencinin sınıf d
 
 - Meslektaşlarınızla birlikte DPA’yı kullanarak puanlarınızı ve ölçütleri değerlendirme şeklinizi mutlaka tartışın.
 
-- Uyarlama yapmak istiyorsanız uyarlama yapacağınız aracın hedeflenen performansa uygun olup olmadığına karar verin. Uzman görüşü alın.
+- Uyarlama yapmak istiyorsanız uyarlama yapacağınız aracın hedeflenen performansa uygun olup olmadığına karar verin. Uzman görüşü alın. http://intranet.cps.k12.il.us
 
-http://intranet.cps.k12.il.us
-
-
+---
 - DPA’daki anlatımların açık olup olmadığından emin olun.
 
 - Meslektaşlarınızla birlikte DPA’yı kullanarak puanlarınızı ve ölçütleri değerlendirme şeklinizi mutlaka tartışın.
@@ -614,13 +584,13 @@ Arkadaşlarını (akran değerlendirme – peer assessment)
 Grup çalışmalarını (grup değerlendirme – group assessment) değerlendirerek katılırlar (Falchikov, 2004).
 
 
-
+---
 Öz-değerlendirme öğrencilerin, öğrenme sürecinde gerçekleştirdikleri çalışmaları, öğretmen ya da öğrenciler tarafından belirlenmiş ölçütler doğrultusunda değerlendirmelerini ve öğrenmeleri hakkında kendi kararlarını vermelerinin içerir (Noonan ve Randy, 2005; Ross, 2006).
 
 Akran değerlendirme, katılımcı bir değerlendirmedir ve öğrencilerin birlikte etkin olarak çalışmalarına olanak sağlar. Akran değerlendirme, öğrencilerin sınıf arkadaşlarının çalışmalarının belirli ölçütler doğrultusunda değerlendirmesiyle gerçekleştirilir (Boud, Cohen ve Sampsom, 1999).
 
 
-
+---
 Öğrencilerin değerlendirme sürecine katıldığı bir diğer yöntem ise grup değerlendirmedir. Grup değerlendirme, bir grup öğrencinin, işbirliği içerisinde yürüttükleri çalışmalar kapsamında yapılır.
 
 
